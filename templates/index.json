@@ -64,7 +64,7 @@
           "type": "heading",
           "source": "{{ metaobjects[\"shopify--color-pattern\"].beige }}",
           "settings": {
-            "heading": "Welcome to Nova Shop - Where Quality Meets Convenience",
+            "heading": "<em><strong>Welcome to</strong></em> <em><strong>Nova Shop</strong></em> - <em><strong>Where Quality Meets Convenience</strong></em>",
             "heading_size": "h1"
           }
         },
