@@ -24,7 +24,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store 50% off Halloween offers available now",
+            "text": "50% off Halloween offers available now",
             "link": ""
           }
         }
