@@ -1,0 +1,8 @@
+/* Test CSS - Spotify style setup */
+body {
+  background: #121212 !important; /* dark background like Spotify */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1db954 !important; /* Spotify green headings */
+}
