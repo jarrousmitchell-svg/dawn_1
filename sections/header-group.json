@@ -27,11 +27,19 @@
             "text": "50% off Halloween offers available now",
             "link": ""
           }
+        },
+        "announcement_R6qK6V": {
+          "type": "announcement",
+          "settings": {
+            "text": "New shoppers can unlock offers up to 70% off",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_eYDtwi",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_R6qK6V"
       ],
       "settings": {
         "auto_rotate": true,
@@ -45,67 +53,6 @@
     },
     "175863090373a89d4b": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_8a310b0_ANjW6V": {
-          "type": "ai_gen_block_8a310b0",
-          "settings": {
-            "nova_text": "NOVA",
-            "subtitle": "Discover our most popular products",
-            "title_size": 72,
-            "title_weight": "700",
-            "letter_spacing": 3,
-            "subtitle_size": 18,
-            "product_1": "adjustable-aluminum-laptop-stand-foldable-portable-notebook-holder-with-cooling-design-non-slip-base",
-            "product_2": "freesip-insulated-stainless-steel-water-bottle-with-straw-bpa-free-sports-water-bottle-great-for-travel-24-oz-denim",
-            "product_3": "",
-            "product_4": "",
-            "product_5": "",
-            "product_6": "",
-            "product_7": "",
-            "product_8": "",
-            "button_text": "View product",
-            "min_card_width": 220,
-            "grid_gap": 10,
-            "section_padding": 30,
-            "spacing_below_nova": 10,
-            "spacing_below_title": 30,
-            "spacing_above_products": 30,
-            "card_padding": 10,
-            "card_border_radius": 4,
-            "card_border_width": 0,
-            "hover_lift": 2,
-            "image_height": 250,
-            "image_border_radius": 8,
-            "spacing_below_image": 16,
-            "product_title_size": 16,
-            "product_title_weight": "500",
-            "product_price_size": 16,
-            "spacing_below_price": 16,
-            "button_padding_vertical": 12,
-            "button_padding_horizontal": 24,
-            "button_border_radius": 6,
-            "button_font_size": 14,
-            "card_shadow_vertical": 4,
-            "card_shadow_blur": 12,
-            "card_shadow_opacity": 15,
-            "background_color": "#ffffff",
-            "title_color": "#121212",
-            "subtitle_color": "#666666",
-            "card_background_color": "#ffffff",
-            "card_border_color": "#e5e5e5",
-            "product_title_color": "#121212",
-            "product_price_color": "#121212",
-            "button_background_color": "#121212",
-            "button_text_color": "#ffffff",
-            "button_hover_background_color": "#334fb4",
-            "button_hover_text_color": "#ffffff"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_8a310b0_ANjW6V"
-      ],
       "settings": {}
     },
     "header": {
