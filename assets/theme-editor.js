@@ -52,3 +52,32 @@ document.addEventListener('shopify:section:deselect', () => hideProductModal());
 document.addEventListener('shopify:inspector:activate', () => hideProductModal());
 
 document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
+// --- Custom Spotify-style Add-to-Cart ---
+document.addEventListener('DOMContentLoaded', function() {
+  const products = document.querySelectorAll('.product-card, .card');
+
+  products.forEach(card => {
+    const variantId = card.querySelector('[data-variant-id]')?.dataset.variantId;
+    if (!variantId) return;
+
+    const btn = document.createElement('div');
+    btn.className = 'spotify-add';
+    btn.textContent = '➕ Add to Cart';
+
+    btn.onclick = function(e) {
+      e.stopPropagation();
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: variantId, quantity: 1 })
+      })
+      .then(res => res.json())
+      .then(data => {
+        alert(data.title + ' added to cart!');
+      })
+      .catch(err => console.error(err));
+    };
+
+    card.appendChild(btn);
+  });
+});
