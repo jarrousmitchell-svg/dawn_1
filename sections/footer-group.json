@@ -61,8 +61,8 @@
         "footer-2"
       ],
       "custom_css": [
-        ".tiktok-link {display: inline-block; background: linear-gradient(45deg, #25f4ee, #fe2c55); color: #fff; font-size: 18px; font-weight: bold; text-decoration: none; padding: 12px 22px; border-radius: 30px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: transform 0.2s ease, box-shadow 0.2s ease;}",
-        ".tiktok-link:hover {transform: scale(1.05); box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);}"
+        "a.tiktok-link {display:inline-block; background:linear-gradient(45deg,#25F4EE,#FE2C55); color:#fff; font-size:18px; font-weight:bold; text-decoration:none; padding:12px 22px; border-radius:30px; box-shadow:0 4px 12px rgba(0,0,0,0.3); transition:transform .2s ease, box-shadow .2s ease;}",
+        "a.tiktok-link:hover {transform:scale(1.05); box-shadow:0 6px 16px rgba(0,0,0,0.4);}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
