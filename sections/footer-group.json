@@ -35,7 +35,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "<a href=\"https://www.facebook.com/profile.php?id=100073584308729\" target=\"_blank\">                        Facebook User      Follow us for updates and promotions      Follow      </a>",
+            "heading": "<a href=\"https://www.facebook.com/profile.php?id=100073584308729\" target=\"_blank\">                   Facebook User      Follow us for updates and promotions      Follow      </a>",
             "menu": "footer"
           }
         },
@@ -49,7 +49,7 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
+            "heading": "",
             "subtext": "<p><a href=\"https://wa.me/16609923023\" target=\"_blank\"><br/>      Chat with Us on WhatsApp<br/>      Click here to message us directly<br/>      Message Now</a></p><p><a href=\"https://wa.me/16609923023\" target=\"_blank\"><br/></a></p>"
           }
         }
