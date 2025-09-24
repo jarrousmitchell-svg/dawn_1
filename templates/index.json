@@ -57,37 +57,6 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "source": "{{ metaobjects[\"shopify--color-pattern\"].beige }}",
-          "settings": {
-            "heading": "<em><strong>Welcome to</strong></em> <em><strong>Nova Shop</strong></em> - <em><strong>Where Quality Meets Convenience</strong></em>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At  Nova Shop, we believe shopping should be simple, enjoyable, and tailored to your lifestyle. Our mission is to bring you carefully selected products that combine style, function, and value. Whether you’re upgrading your daily essentials or exploring something new, we’re here to make your experience seamless, secure, and satisfying</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -195,7 +164,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "featured_collection",
     "collage",
     "multicolumn"
