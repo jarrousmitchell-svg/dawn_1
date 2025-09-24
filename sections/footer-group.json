@@ -16,7 +16,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"footer-info\">\n  <h4>🛍️ Shopping Info</h4>\n  <ul>\n    <li>Secure checkout with Apple Pay, cards & PayPal</li>\n    <li>Easy 7-day returns</li>\n    <li>All clothing is authentic & quality checked</li>\n  </ul>\n</div>",
+        "custom_liquid": "<div class=\"footer-info\">\n  <h4>🛍️ Shopping Info</h4>\n  <ul>\n    <li>Secure checkout with Apple Pay, cards & PayPal</li>\n    <li>Easy 7-day returns</li>\n    <li>All clothing is authentic & quality checked</li>\n  </ul>\n</div>\n<div class=\"footer-badges\">\n  <h4>✅ Shop With Confidence</h4>\n  <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/\" alt=\"M-Pesa\" width=\"80\">\n  <img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\" width=\"60\">\n  <img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\" width=\"80\">\n</div>\n\n<div class=\"footer-newsletter\">\n  <h4>📩 Stay Updated</h4>\n  <p>Join our WhatsApp broadcast for new arrivals & exclusive deals.</p>\n  <a href=\"https://wa.me+16609923023?text=Add%20me%20to%20updates\" target=\"_blank\" class=\"btn\">Join Now</a>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
