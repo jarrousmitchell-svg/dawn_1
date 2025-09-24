@@ -59,6 +59,11 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".price,.price-item--sale{color:#1db954;font-weight:700;font-size:1.1rem}",
+        ".price--compare,.price-item--regular,.price-item--compare{color:#ccc;text-decoration:line-through;margin-left:6px;font-size:.95rem;font-weight:400}",
+        ".grid__item{background:#121212;border-radius:14px;padding:12px;text-align:center;color:#fff}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
