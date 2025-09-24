@@ -60,9 +60,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".price,.price-item--sale{color:#1db954;font-weight:700;font-size:1.1rem}",
-        ".price--compare,.price-item--regular,.price-item--compare{color:#ccc;text-decoration:line-through;margin-left:6px;font-size:.95rem;font-weight:400}",
-        ".grid__item{background:#121212;border-radius:14px;padding:12px;text-align:center;color:#fff}"
+        ".price,.price-item--sale {color: #1db954; font-weight: 700; font-size: 1.1rem;}",
+        ".price--compare,.price-item--regular,.price-item--compare {color: #ccc; text-decoration: line-through; margin-left: 6px; font-size: 0.95rem; font-weight: 400;}",
+        ".grid__item {background: #121212; border-radius: 14px; padding: 12px; text-align: center; color: #fff;}"
       ],
       "settings": {
         "collection": "all",
@@ -102,75 +102,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Lnq8hV": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column_Lnq8hV",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collage",
-    "multicolumn"
+    "collage"
   ]
 }
