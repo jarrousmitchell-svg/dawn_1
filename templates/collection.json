@@ -20,7 +20,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".product-grid,.collection-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}",
+        ".product-grid,.collection-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}",
         ".grid__item{background:#121212;border-radius:16px;padding:12px;text-align:center;color:#fff;transition:.3s}",
         ".grid__item:hover{transform:translateY(-5px);background:#181818}",
         ".grid__item img{border-radius:12px;transition:.3s}",
