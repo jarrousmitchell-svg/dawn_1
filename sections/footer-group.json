@@ -28,7 +28,7 @@
         "link_list_ezDfWt": {
           "type": "link_list",
           "settings": {
-            "heading": "tiktok.com/@novaeasyliving",
+            "heading": "<a href=\"https://www.tiktok.com/@novaeasyliving\" target=\"_blank\">  🎵 Follow us on TikTok</a>",
             "menu": ""
           }
         },
@@ -60,10 +60,14 @@
         "footer-1",
         "footer-2"
       ],
+      "custom_css": [
+        ".tiktok-link {display: inline-block; background: linear-gradient(45deg, #25f4ee, #fe2c55); color: #fff; font-size: 18px; font-weight: bold; text-decoration: none; padding: 12px 22px; border-radius: 30px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: transform 0.2s ease, box-shadow 0.2s ease;}",
+        ".tiktok-link:hover {transform: scale(1.05); box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "subscibe to our email",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
