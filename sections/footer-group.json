@@ -50,7 +50,7 @@
           "type": "text",
           "settings": {
             "heading": "Our mission",
-            "subtext": "<p><a href=\"https://wa.me/16609923023\" target=\"_blank\"><br/>    <br/>      <br/>    <br/>    <br/>      Chat with Us on WhatsApp<br/>      Click here to message us directly<br/>      Message Now<br/>    <br/>  </a></p><p></p>"
+            "subtext": "<p><a href=\"https://wa.me/16609923023\" target=\"_blank\"><br/>      Chat with Us on WhatsApp<br/>      Click here to message us directly<br/>      Message Now</a></p><p><a href=\"https://wa.me/16609923023\" target=\"_blank\"><br/></a></p>"
           }
         }
       },
