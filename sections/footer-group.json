@@ -35,7 +35,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "<a href=\"https://www.facebook.com/profile.php?id=100073584308729\" target=\"_blank\">                   Facebook User      Follow us for updates and promotions      Follow      </a>",
+            "heading": "<a href=\"https://www.facebook.com/profile.php?id=100073584308729\" target=\"_blank\"> Follow us for updates and promotions      Follow      </a>",
             "menu": "footer"
           }
         },
