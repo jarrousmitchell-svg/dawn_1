@@ -43,8 +43,13 @@
         "text",
         "button"
       ],
+      "custom_css": [
+        ".homepage-banner .banner-text h1,.homepage-banner .banner-text p {display: block; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word;}",
+        "/* Limit the text container width to approx 500 characters */.homepage-banner .banner-text p {max-height: 14em; /* adjust depending on font-size, ~500 characters */}",
+        "/* Optional responsive adjustments */@media (max-width: 768px) {.homepage-banner .banner-text h1 {font-size: 32px; } .homepage-banner .banner-text p {font-size: 16px; max-height: 10em; }}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/outdoor-during-fall-in-a-sporty.png",
+        "image": "shopify://shop_images/web_walpper.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "ambient",
