@@ -11,6 +11,37 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1758798475535a6b45": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e3d9f1b_WRLHpM": {
+          "type": "ai_gen_block_e3d9f1b",
+          "settings": {
+            "background_image": "shopify://shop_images/WhatsApp_Image_2025-09-25_at_14.20.26.jpg",
+            "overlay_opacity": 20,
+            "height_desktop": 120,
+            "height_mobile": 100,
+            "padding_top": 8,
+            "padding_bottom": 8,
+            "content_alignment": "center",
+            "text_alignment": "center",
+            "heading": "<strong>Embrace Serene Living with Our Thoughtful Selections.</strong>",
+            "text": "<p><strong>Explore Our Premium Collection at Unbeatable Prices</strong></p>",
+            "content_spacing": 8,
+            "heading_size": 20,
+            "text_size": 14,
+            "background_color": "#f3f3f3",
+            "background_gradient": "",
+            "text_color": "#121212"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e3d9f1b_WRLHpM"
+      ],
+      "settings": {}
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -82,6 +113,7 @@
     }
   },
   "order": [
+    "1758798475535a6b45",
     "announcement-bar",
     "175863090373a89d4b",
     "header"
